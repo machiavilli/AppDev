@@ -1,4 +1,5 @@
-export default {
+// Route constants for navigation
+const ROUTES = {
     // Auth
     LOGIN: 'Login',
     REGISTER: 'Register',
@@ -7,3 +8,5 @@ export default {
     HOME: 'Home',
     PROFILE: 'Profile',
 };
+
+export default ROUTES;
